@@ -7,7 +7,8 @@ def prime?(int)
     #are only 1 and itself searching through
     #divisors only takes from 1 to the square root
     #since the factors only "pair" up to that point 
-    puts (Math.sqrt(int)).to_i
+    max_number = (Math.sqrt(int)).to_i
+    (2..max_number).each {|n| puts n}
 end
 
 prime?(42)
