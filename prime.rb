@@ -10,7 +10,7 @@ def prime?(int)
     #since the factors only "pair" up to that point 
     max_number = (Math.sqrt(int)).to_i
     (2..max_number).each {|n| modulo_array << (int % n)}
-    puts modulo_array
+    puts modulo_array.sort.last
 end
 
 prime?(42)
