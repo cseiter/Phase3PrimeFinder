@@ -27,3 +27,4 @@ Think about the efficiency of your algorithm. How many iterations does it do? Lo
 ## Resources
 * [Basic Benchmarking in Ruby](http://rubylearning.com/blog/2013/06/19/how-do-i-benchmark-ruby-code/)
 * [Wikipedia](http://en.wikipedia.org/) - [Prime number](http://en.wikipedia.org/wiki/Prime_number)
+# Phase3PrimeFinder
