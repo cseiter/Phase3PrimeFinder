@@ -1,7 +1,4 @@
-# Add  code here!
-
 def prime?(int)
-    modulo_array = []
     #0 and 1 are not prime
     return false if int <= 1
     #prime numbers are numbers whose factors
@@ -12,5 +9,3 @@ def prime?(int)
     (2..max_number).each {|factor| return false if int % factor == 0}
     return true
 end
-
-prime?(13)
